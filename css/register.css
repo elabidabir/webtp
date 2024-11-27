@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+label{
+	padding-top:15px;
+  padding-bottom:15px;
+	color: rgb(243, 46, 79);
+	font-weight: bold;
+	display: block;
+	width: 150px;
+	float: left;
+}
+.form{
+  position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,  -50px);
+    box-sizing: border-box;
+    background-color: rgba(177, 211, 202, 0.7);
+    padding: 100px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+.loginForm{
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    bottom: auto;
+    transform: translate(-50%,  -50px);
+    box-sizing: border-box;
+    background-color: rgba(177, 211, 202, 0.7);
+    padding: 100px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+	  height: 80%;
+
+}
+
+.titre{
+    margin: 0%;
+    padding: 0 0 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -1cm;
+}
+ .valide{
+     margin-top: 1.5cm;
+     margin-bottom: 20px;
+     width: 100%;
+     margin-left: 50px;
+}
+.valide a{
+  border: 1px solid skyblue;
+  border-radius: 20px;
+  background-color: skyblue;
+  color: black;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  float: right;
+  margin-left: 20px;
+}
+.valide:hover a{
+  color: white;
+  background-color: rgb(243, 46, 79);
+  border: 1px solid rgb(243, 46, 79);
+}
+.loginForm input[type=submit], .form input[type=submit]{
+     background-color: skyblue;
+     border: 1px solid skyblue;
+     border-radius: 20px;
+     color: black;
+     margin-top: 20px;
+     margin-left: 20px;
+     padding: 12px 30px;
+     font-size: 16px;
+     font-weight: 500;
+     float: right;
+}
+.loginForm:hover input[type=submit], .form:hover input[type=submit]{
+    background-color: rgb(243, 46, 79);
+    border: 1px solid rgb(243, 46, 79);
+    color: white;
+}
+.loginForm input[type=text], .loginForm input[type=number], .loginForm input[type=email], .loginForm input[type=password]{
+  display: block;
+	border-radius: 20px;
+	box-sizing: border-box;
+	background-color:  skyblue;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #5c666b;
+	width: 100%;
+	padding: 18px;
+}
+.form input[type=text], .form input[type=email]{
+  display: block;
+	border-radius: 20px;
+	box-sizing: border-box;
+	background-color:  skyblue;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #5c666b;
+	width: 100%;
+	padding: 18px;
+}
+div{
+	display: block;
+}
+
+
+

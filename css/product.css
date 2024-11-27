@@ -1,0 +1,31 @@
+.product-section h1{
+        margin-top: 5cm;
+}
+.product-section p{
+    color: skyblue;
+    font-size: 40px;
+    margin-bottom: 2cm;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    width: 7cm;
+}
+
+.rechercher {
+    background-color: pink;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 2cm;
+}
